@@ -95,11 +95,11 @@ footer{
     }
     .one{
         width: 100%;
-        height: 400px;
+        height: 300px;
         padding-left: 7px;
         padding-right: 7px;
         margin-top: 0;
-        font-size: xx-small;
+        font-size: small;
     }
     .two{
          width: 100%;
