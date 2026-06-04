@@ -76,9 +76,14 @@ footer{
     background-color: gray;
     color: black;
 }
-@media screen and (max-width: 565px){
+@media screen and (max-width: 767px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
     a{
-        font-size: x-small;
+        font-size: small;
         padding-top: 30px;
     }
     .container1{
