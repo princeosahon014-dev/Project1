@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    width: 100%;
+    height: 70px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    color: black;
+    padding-top: 10px;
+    font-size: larger;
+}
+.container1{
+width: 100%;
+height: 600px;
+background-color: skyblue;
+display: flex;
+justify-content: space-evenly;
+margin-top: 40px;
+}
+.one{
+    width: 45%;
+    height: 550px;
+    margin-top: 15px;
+}
+.two{
+    width: 45%;
+    height: 550px;
+    margin-top: 15px;
+    animation-name: God;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+@keyframes God{
+    0%{
+        background-image: url("Jesus.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    20%{ background-image: url("GBY.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+
+    }
+    40%{
+         background-image: url("MY\ SAVIOR.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+    60%{
+         background-image: url("4ab737a88b5f4e03a3167a5e722e635d~tplv-jj85edgx6n-image-medium.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+    80%{
+         background-image: url("90bbf8733f4148c891da26835ffb0211~tplv-jj85edgx6n-image-medium.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+    100%{
+         background-image: url("d72309a1bf6b4abfb7270ba68e3e4dcd~tplv-jj85edgx6n-image-medium.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+}
+footer{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background-color: gray;
+    color: black;
+}
+@media screen and (max-width: 565px){
+    a{
+        font-size: small;
+    }
+    .container1{
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 100%;
+        height: 1200px;
+        margin-bottom: 15px;
+    }
+    .two{
+         width: 100%;
+        height: 300px;
+    }
+}
